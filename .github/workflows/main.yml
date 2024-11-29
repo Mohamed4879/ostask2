@@ -3,18 +3,13 @@ on:
     branches:
       - master
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: 'testing GitHub action'
+        run: pwd
 
-
-
-
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-
-      steps:
-        - name: 'testing gethub action'
-         run: pwd
-
-        - name: 'testing print'
-         run: eco mohamed
+      - name: 'testing print'
+        run: echo mohamed
