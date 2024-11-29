@@ -1,4 +1,4 @@
 FROM python
 WORKDIR /mohamed
-COPY ..
+COPY . .
 CMD ["python3", "firsttask.py"]
