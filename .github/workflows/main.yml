@@ -8,12 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print floder befor contents'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'print floder after contents'
-        run: ls
+      - name: 'login to docker hub'
+        run: docker login --username mohamedse --pssword dckr_pat_HH1Vi0CBiGzqjReKWTI7pyQzvMQ
+
+      
 
       
