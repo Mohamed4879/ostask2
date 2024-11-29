@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing GitHub action'
-        run: pwd
+      - name: 'print floder contents'
+        run: ls
 
-      - name: 'testing print'
-        run: echo mohamed
+      
