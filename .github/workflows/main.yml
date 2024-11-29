@@ -8,7 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print floder contents'
+      - name: 'print floder befor contents'
+        run: ls
+
+      - uses: actions/checkout@v3
+
+      - name: 'print floder after contents'
         run: ls
 
       
